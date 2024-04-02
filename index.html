@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./web-assets/favicon.svg" type="image/svg+xml">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css" type="">
+    <title>PostCast Website</title>
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/c0c2414fec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="active" data-header>
+        <div class="container">
+
+            <!-- Overlay -->
+            <div class="overlay" data-overlay></div>
+
+            <a href="#" class="logo">
+                <img src="./web-assets/logo.svg" alt="Micro Logo">
+            </a>
+
+            <button class="nav-toggle-btn" data-nav-toggle-btn>
+
+                <i class="fa-solid fa-bars" name="menu-outline" data-menuIcon></i>
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#hero" class="navbar-link">Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#podcast" class="navbar-link">Podcast</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#host" class="navbar-link">Host</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#blog" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="navbar-actions">
+
+                    <button class="navbar-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                    <button class="navbar-btn">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </button>
+
+                    <button class="navbar-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+
+                    <button class="btn">
+                        <i class="fa-brands fa-paypal"></i>
+
+                        <span>Donate</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="container">
+
+            <!-- Hero -->
+            <section class="hero" id="hero">
+
+                <div class="hero-content">
+
+                    <img src="./web-assets/hero-title.png" alt="podcast" class="hero-title">
+
+                    <p class="hero-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatem est nobis earum
+                        accusantium ipsum vitae quos unde laboriosam nihil, aperiam iure officiis provident obcaecati
+                        incidunt dolorem hic necessitatibus ab!
+                    </p>
+
+                    <div class="hero-btn-group">
+
+                        <button class="btn btn-primary">
+                            <i class="fa-solid fa-headphones"></i>
+
+                            <span>Listen Now</span>
+                        </button>
+
+                        <div class="btn-link-wrapper">
+
+                            <p class="btn-title">Subscribe On:</p>
+
+                            <a href="#" class="btn-link">
+                                <i class="fa-brands fa-apple"></i>
+                                <span>Apple Music</span>
+                            </a>
+
+                            <a href="#" class="btn-link">
+                                <i class="fa-brands fa-soundcloud"></i>
+                                <span>SoundCloud</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-banner">
+
+                </div>
+            </section>
+
+            <!-- Podcast -->
+
+            <section class="podcast" id="podcast">
+
+                <ul class="podcast-list">
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-1.png"
+                                    alt="Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 01
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-2.png"
+                                    alt="Ask Unladylike: Late Bloomer with Forever 35">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 02
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">Ask Unladylike: Late Bloomer with Forever 35</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-3.png" alt="How to Effectively Incentivize Team Members">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 03
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">How to Effectively Incentivize Team Members</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-4.png"
+                                    alt="How to go from Start-Up to Scale-Up">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 04
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">How to go from Start-Up to Scale-Up</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-5.png" alt="Deadbuttons – Tired of You | Live at Club Heavy">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 05
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">Deadbuttons – Tired of You | Live at Club Heavy</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-6.png"
+                                    alt="Boogie Through the Universe with SOWO">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 06
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">Boogie Through the Universe with SOWO</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-7.png"
+                                    alt="Glittering Blackness, Fall – 4 | Live at Club Heavy">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 07
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">Glittering Blackness, Fall – 4 | Live at Club Heavy</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="podcast-card">
+                            <figure class="card-banner">
+                                <img src="./web-assets/podcast-8.png" alt="The Meditative Photos of Chaelinjane">
+
+                                <div class="card-banner-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2022-02-15">
+                                        Feb 15, 2022
+                                    </time>
+
+                                    <p class="pod-epi">
+                                        Episodes: 08
+                                    </p>
+                                </div>
+
+                                <h3 class="h3 card-title">The Meditative Photos of Chaelinjane</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- NewsLetter -->
+
+            <section class="newsletter">
+                <div class="newsletter-card">
+
+                    <div class="card-content">
+                        <h3 class="h3 card-title">Sign Up For Our Newsletter. It's free</h3>
+
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus placeat
+                            facere suscipit repellat. Quis fuga ut iure? Perspiciatis, laborum molestiae!</p>
+                    </div>
+
+                    <form action="" class="card-form" data-form>
+                        <input type="email" name="email_address" id="" placeholder="Your Email Address" required
+                            class="input-field" data-input>
+
+                        <!--add "disabled" to property  -->
+                        <button type="submit" class="btn btn-primary" disabled data-submit>Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- -------------- -->
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-top">
+
+            <div class="container">
+
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./web-assets/logo.svg" alt="Micro logo">
+                    </a>
+
+                    <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit
+                        repellendus eum numquam enim similique inventore esse fugiat quidem iusto.</p>
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-link-title">Start A Conversation</p>
+                    </li>
+
+                    <li>
+                        <a href="mailto:hello@micro.com" class="footer-link">hello@micro.com</a>
+                    </li>
+
+                    <li>
+                        <a href="tel: +0123454678" class="footer-link">+01234 54678</a>
+                    </li>
+
+                    <li>
+                        <a href="tel: 
+                        +1578034-6789" class="footer-link">
+                            +1 (578) 034-6789</a>
+                    </li>
+                </ul>
+
+                <div class="social-list-box">
+
+                    <p class="social-title">Follow Us On:</p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link"><i class="fa-brands fa-soundcloud"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link"><i class="fa-brands fa-apple"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    &copy; 2023 <a href="#">Armstrong</a> & Credits to <a href="https://youtu.be/_9oK9CKuaeI">codewithsadee</a>.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ---------------------- -->
+    <!-- Go To Top -->
+
+    <a href="#top" class="go-top active" data-go-top><i class="fa-solid fa-chevron-up"></i></a>
+
+
+    <!-- Custom JS Link -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
